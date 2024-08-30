@@ -1,0 +1,93 @@
+.pay{
+
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.head{
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.method{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+select{
+
+    padding: 20px 30px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 800px;
+}
+
+.delivery{
+
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.head p{
+
+    color: white;
+    font-size: 2em;
+}
+
+
+
+.head button{
+
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.money p{
+
+    font-size: 30px;
+}
+
+.mach img{
+
+  margin-right: 1000px;
+}
+
+
+.input{
+
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
+}
+
+.payme{
+
+    background-color: #0ed607;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+
+.back{
+
+    margin-bottom: 30px;
+}
+   

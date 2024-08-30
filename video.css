@@ -1,0 +1,21 @@
+.practice1 h1{
+
+     text-align: center;
+}
+.sent{
+
+     font-size: 3em;
+}
+
+.back{
+
+    background-color: #0ed607;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    margin-left: 400px;
+}

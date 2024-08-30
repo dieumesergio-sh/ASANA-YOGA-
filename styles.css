@@ -1,0 +1,346 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-cont{
+
+    max-width: 1300px; 
+
+}
+
+.logoa{
+
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color:  white;
+    color: rgb(248, 245, 245);
+    text-align: center;
+}
+
+nav ul button{
+    background-color: #0ed607;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+}
+    
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 700px;
+    justify-content: space-around;
+}
+
+
+
+nav ul li a {
+    color: rgb(141, 136, 136);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    background-image: url('./image/yoga\ africa.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img:hover{
+
+    cursor: pointer;
+    background-color: #0ed607;
+
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    color: white;
+    margin: 0.5em 0;
+}
+
+.banner button {
+    background-color: #0ed607;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.banner button:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.our-story, .our-values {
+    margin-bottom: 40px;
+}
+
+.our-story h1{
+    margin-left: 600px;
+    padding-top: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.values{
+    margin-left: 600px;
+}
+
+
+
+.sec-image{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.product {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.product h2 {
+    color: #555;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.first-shop{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.shop button{
+
+    background-color: #0ed607;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+
+    
+}
+
+
+.shop button:hover{
+
+       background-color: white;
+       color: rgb(75, 219, 8);
+}
+
+.sec-shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.business-card {
+    display: flex;
+    gap: 60px;
+
+}
+
+
+
+.right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.numb{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.content{
+
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+.base-line{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+   gap: 20px;
+}
+
+.menu-toggle{
+
+    display: none;
+}
+
+.menu-icon{
+
+    cursor: pointer;
+    
+    float: left;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+
+.bottom-navz{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.bottom-navz a{
+
+    text-decoration: none;
+    color: rgb(141, 139, 139);
+     
+}
+
+.medias{
+
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.base-content{
+
+    display: flex;
+    padding-top: 40px;
+    padding-left: 1000px;
+    
+}
+
+.rights{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:768px){
+
+
+    
+    }
+    
+     
+
+       
